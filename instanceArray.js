@@ -22,6 +22,7 @@ var users = [];
 var Tyler = new User('Tyler', 'tylermcginnis33@gmail.com', 'iLoveJS');
 var Cahlan = new User('Cahlan', 'cahlan@devmounta.in', 'iLoveHashtags');
 var Lenny = new User('Lenny', 'lenny@theLenster.com', 'iLoveLentilSoup');
+users.push(Tyler, Cahlan, Lenny);
 //users.push(new User('Tyler', 'tylermcginnis33@gmail.com', 'iLoveJS'), new User('Cahlan', 'cahlan@devmounta.in', 'iLoveHashtags'), new User('Lenny', 'lenny@theLenster.com', 'iLoveLentilSoup'));
 
 console.log('Tyler\'s information is ');
@@ -40,6 +41,7 @@ console.log(users[2]);
 
   //code here
 var Kevin = new User('Kevin', 'hardy95k@gmail.com', 'ILoveStarcraftII');
+users.push(Kevin);
 //users.push(new User('Kevin', 'hardy95k@gmail.com', 'ILoveStarcraftII'));
 
 console.log('All my users names are ');
